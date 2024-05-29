@@ -1,0 +1,1226 @@
+
+
+@font-face {
+    font-family: "LaborUnion";
+    src: url(labor-union-regular\ \(1\)/LaborUnion-Regular.otf);
+}
+@font-face {
+    font-family: "Nickainley";
+    src:url(nickainley/Nickainley-Normal.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+}
+body,html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+.container{
+    width:100%;
+    max-width: 1440px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:15px;
+}
+.row{
+    margin-left: -15px;
+    margin-right:-15px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.w-100{
+    width:100%;
+}
+.d-flex{
+    display:flex;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position:absolute;
+}
+.col-12{
+    width:100%;
+    max-width:100%;
+    position: relative;
+    flex:0 0 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-6, .col-md-6{
+    width:50%;
+    max-width: 100%;
+    position: relative;
+    flex: 0 0 50%;
+    padding-left: 15px;
+    padding-right:15px;
+}
+.col-4{
+    position: relative;
+    width:33.33%;
+    max-width: 100%;
+    flex:0 0 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-50{
+    position:relative;
+    width:50%;
+    max-width: 100%;
+    flex:0 0 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-8{
+    position: relative;
+    width:80%;
+    max-width: 100%;
+    flex:0 0 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.fw-semibold{
+    font-family:'Montserrat Alternates', sans-serif;
+    font-weight:800;
+}
+
+.header-wrapper{
+    background: url("images/banner-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:1075px;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.logo{
+    padding:33px 0;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    transition:0.5s;
+}
+.header ul{
+    /* margin-right: 33%; */
+    margin-right: 43%;
+    padding: 10px;
+}
+.header ul li a{
+    font-weight: 600;
+    color:#fff;
+    text-decoration: none;
+    padding: 0 25px;
+}
+.header ul li a.active{
+    background-color: #595b61;
+    padding:5px 10px;
+    border-radius: 8px;
+}
+.header ul li a:hover{
+    color:#edc315;
+}
+.quotes-bg{
+    background-color: #ffcb89;
+    mix-blend-mode: multiply;
+   min-height: 200px;
+   top: 50%;
+   left: 50%;
+   width: 80%;
+   z-index: 5;
+   transform: translate(-50%, -50%);
+}
+.quotes-block{
+   z-index: 9;
+   padding:31px 43px 37px 43px;
+}
+.stars i, .quotes-block q, .quotes-block p{
+    color:whitesmoke;
+}
+ .quo{
+    font-size: 18px;
+    padding:27px 0;
+}
+.ban-conn-left{
+    margin:30% 0;
+}
+.block-left h1{
+    font-family:"LaborUnion";
+    font-weight: normal;
+    font-size:99px;
+    color:#fff;
+}
+.block-left-bg{
+    top: -302px;
+    left: 67px;
+}
+.block-left{
+    bottom:-27%;
+    left:0;
+}
+.block-left h2{
+    font-family: "Nickainley";
+    font-weight: normal;
+    font-size:69px;
+    color:#fff;
+    line-height: 49px;
+}
+.block-left-para{
+    padding:25px 55px 58px 52px;
+    color:#fff;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top:24px;
+}
+.search input{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.search{
+    margin-right: 2%;
+}
+.searchIcon{
+    top: 10px;
+    left: 10px;
+    color: #ffb250;
+}
+#click, .menu-btn i{
+  display: none;
+}
+.menu-btn{
+    position: relative;
+    top:0;
+    left:40px;
+}
+.menu-btn i{
+    cursor:pointer;
+    font-size: 25px;
+    color:#ffb250;
+}
+.creative-bg{
+    top: 960px;
+    left: 0%;
+    overflow-x: hidden;
+    z-index: 8;
+}
+.creative-bg img{
+    width:2700px;
+}
+#click:checked ~ ul{
+    left:0%;
+}
+.hikers{
+    background-color: #ffae47;
+    min-height: 630px;
+}
+.hikers-heading{
+    margin: 50px 156px;
+    padding-top:150px;
+    text-align: center;
+}
+.hikers-heading h1{
+    font-size: 59px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.hikers_para{
+    background: url("images/hikers-para-bg.png") no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    margin:20px 25% 116px 25%;
+    padding: 59px 154px 44px 154px;
+}
+.hikers_para p{
+    font-size: 19px;
+    font-weight: 500;
+    color:#fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.level{
+    background: url("images/level-bg.png") no-repeat;
+    min-height: 1072px;
+    background-position: center;
+    background-size: cover;
+}
+.level-heading{
+    margin:56px 0 44px 0;
+}
+.level-heading h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#2c2e35;
+}
+.level-card h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 47px;
+    font-weight: lighter;
+    color:#202121;
+}
+.level-card h2::before{
+    position: absolute;
+    content:"";
+    background: #202121;
+    width: 60%;
+    left: 20%;
+    height: 1px;
+    bottom: -15px;
+}
+.level-card p{
+    font-size: 19px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 18px 0 10px 0;
+    padding: 21px 95px 42px 110px;
+}
+.learn-btn button{
+    color:#2c2e35;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding:7px 55px;
+    border:2px solid #202121;
+    border-radius: 30px;
+}
+.top-btn button{
+    color:#fff;
+    border:4px solid #fff;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding:7px 55px;
+    border-radius: 30px;
+    background: transparent;
+}
+.route{
+    background: url("images/route-bg.png") no-repeat;
+    min-height: 910px;
+    background-position: center;
+    background-size: cover;
+}
+.border-div{
+    left:6%;
+}
+.searcInpt{
+    top: 300px;
+    right: 200px;
+}
+.searcInpt input[type="search"]{
+    width:340px;
+    border:0;
+    padding:6px 36px;
+    border-radius: 30px;
+    background-color: #ffae47;
+    text-align: center;
+}
+.searcInpt input[type="search"]::placeholder{
+    color:#fff;
+}
+.searcInpt input[type="search"]:focus{
+    border:0;
+    outline:0;
+}
+.SearchI{
+    top: 5px;
+    left: 10px;
+    font-size: 17px;
+    color: #fff;
+}
+.route_para-row{
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Montserrat Alternates', sans-serif;;
+    margin: 44% 34% 20% 32%;
+}
+.route_para{
+    top:615px;
+    margin:0 30%;
+}
+.route_para p{
+    color:#fff;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.our-journey{
+    background:#ffae47;
+    min-height:410px;
+    padding:95px 0 95px 0;
+}
+.journey-heading h3{
+    padding-bottom:35px;
+    font-size: 66px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    color:#2c2e35;
+}
+.journey-heading h3 .journ-bold{
+    font-weight: bold;
+}
+.journ-para{
+    margin:0 24%;
+}
+.journ-para p{
+    padding-bottom: 40px;
+    font-size: 21px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#43454b;
+}
+.journ-advantage{
+    margin:0 20%;
+}
+.journ-advantage h4{
+    font-size: 24px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#2c2e35;
+}
+.time-to-hike{
+    background: url("images/time-bg.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 1006px;
+    padding: 92px 0 140px 0;
+}
+.time-to-hike-header{
+    padding-bottom: 99px;
+}
+.time-heading h4, .time-heading h5{
+    color:#fff;
+    font-weight: normal;
+    line-height: 100px;
+}
+.time-heading h4{
+    font-family:  "Nickainley";
+    font-size: 82px;
+}
+.time-heading h5{
+    font-family: "LaborUnion";
+    font-size: 120px;
+}
+.time-to-hike-lower{
+    margin:4% 7%;
+}
+.route-boxx{
+    background-color: #ffae47;
+    padding:9px 25px 9px 18px;
+    top: -29px;
+    left: 84px;
+}
+.route-boxx h5{
+    font-size: 38px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color:#43454b;
+}
+.discount{
+    background-color:#ff2e17;
+    padding:8px 15px;
+    color:#fff;
+    bottom: -35px;
+    left: 111px;
+}
+.discount h5{
+    font-size:28px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+.video-section{
+    background: url("images/video1-bg.png") no-repeat;
+    background-position: 100% 160px;
+    background-size: cover;
+    min-height: 820px;
+    background-color: #e0e0e0;
+    padding: 128px 200px 52px 200px;
+}
+.video-header{
+    padding-bottom: 57px;
+    padding-left: 16px;
+}
+.video-header h5{
+    font-size: 29px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    color:#5c5d63;
+}
+.video-play{
+    top:45%;
+    left:47%;
+}
+.video-play .fa-play{
+    font-size: 35px;
+    color:#fff;
+}
+.video_para{
+    padding:24px 12px 0 12px;
+    font-size: 16px;
+    color:#2c2e35;
+}
+.video-abt{
+    padding: 73px 70px;
+}
+.video-abt h5{
+    font-size: 64px;
+    line-height: 58px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    color:#2c2e35;
+}
+.video-abt h5 span{
+    font-weight: bold;
+}
+.video-btn{
+    padding:12% 0 0 0;
+}
+.video-btn button{
+    background-color: #ffae47;
+    color:#2c2e35;
+    padding:7px 18px;
+    border:none;
+    outline:none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+}
+.gallery{
+    background: url("images/gallery1-bg.png") no-repeat;
+    background-position: 100% 4px;
+    background-size: cover;
+    /* background-color: #ffae47; */
+  
+    min-height: 955px;
+    top:-20px;
+    z-index:5;
+}
+.gallery-heading{
+    padding:79px 0;
+}
+.gall-image-row{
+    margin:0 12% 52px 12%;
+}
+.gallery-btn{
+    margin-bottom:77px;
+}
+.gallery-btn button{
+    padding:5px 20px;
+    font-size: 22px;
+    font-family:'Montserrat Alternates', sans-serif;
+}
+.gal-vid-wrapper{
+    background-color: #ffae47;
+}
+.footer-upper{
+    min-height: 650px;
+    background:#2c2e35;
+    margin-top:-5%;
+}
+.your-logo{
+    margin-top: 56px;
+    padding: 77px 0;
+}
+.footer-upper-para{
+    padding: 0 125px 0 140px;
+}
+.footer-upper-para p, .footer-upper-right p{
+    font-family:'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 48px;
+    color:#f1f1f2;
+}
+.footer-upper-socials li {
+   width:33.33%;
+   max-width:100%;
+   flex: 0 0 33.33%;
+}
+.footer-upper-socials li i{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 9px 12px;
+    border-radius: 50%;
+}
+.footer-upper-socials p{
+    font-size: 16px;
+}
+.social-para{
+    padding-left: 20px;
+}
+.txt-end{
+    padding-left:15%;
+    line-height: 35px;
+}
+.coll-6{
+    padding: 40px 30px 20px 30px;
+}
+.coll-6-new{
+    padding-left: 8%;
+}
+.coll-6-new::before{
+    position:absolute;
+    content:"";
+    height:280px;
+    width:2px;
+    left:-25px;
+    background:#fff;
+}
+.footer {
+    background-color: #e0e0e0;
+    min-height: 384px;
+    padding: 91px 137px 96px 124px;
+  }
+  .footer-first-col {
+    width: 40%;
+  }
+  .footer-first-col h5,
+  .footer-col h5 {
+    font-size: 30px;
+    color: #202121;
+  }
+  .footer-first-col p {
+    color: #535454;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 21px;
+    
+  }
+  .footer-links{
+    padding:43px 0 0 0;
+  }
+  .footer-first-col p{
+    padding: 44px 28% 0 0;
+  }
+  .footer-col {
+    width: 20%;
+  }
+  .footer-links li {
+    padding-top: 5px;
+  }
+  .footer-links li a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    color: #212121;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .footer-links li a:hover{
+    color:#edc315;
+  }
+
+@media(max-width:1440px){
+    .border-div {
+        left: 4%;
+    }
+    .route-boxx{
+        left: 80px;
+    } 
+}  
+@media(max-width:1366px){
+    .header ul {
+        margin-right: 35%;
+    }
+    .search {
+        margin-right: 3%;
+    }
+    .border-div {
+        left: 3%;
+    }
+    .route-boxx {
+        left: 68px;
+    }
+    .discount{
+        left:94px;
+    }
+    .block-left-bg{
+        top:-290px;
+        left: 39px;
+    }
+    .block-left{
+        bottom:-42%;
+    }
+}
+@media(max-width:1200px){
+    .header ul{
+        margin-right: 25%;
+    }
+    .header ul li a{
+        padding:0 18px;
+    }
+    .search input{
+        padding:10px 18px;
+    }
+    .border-div {
+        left: 0%;
+    }
+    /* .route-boxx {
+        left: 50px;
+    } */
+    .discount{
+        /* left:84px; */
+        left:60px;
+    }
+    .block-left h1 {
+        font-size: 77px;
+    }
+    .hikers_para {
+        margin: 20px 6% 80px 6%;
+    }
+    .level-card h2 {
+        font-size: 38px;
+    }
+    .level-card p {
+        padding: 21px 30px 42px 30px;
+    }
+    .route-boxx {
+        padding: 5px 11px 5px 11px;
+        left: 52px;
+    }
+    .route-boxx h5 {
+        font-size: 31px;
+    }
+    .discount h5,.footer-upper-right p  {
+        font-size: 24px;
+    }
+    .time-heading h4 {
+        font-size: 70px;
+    }
+    .time-heading h5 {
+        font-size: 80px;
+    }
+    .video-abt {
+        padding: 27px 35px;
+    }
+    .video-abt h5 {
+        font-size: 53px;
+        line-height: 45px;
+    }
+    .your-logo img{
+        width:300px;
+    }
+    .footer-upper-para {
+        padding: 0px 55px 0 55px;
+    }
+    .footer-upper-socials{
+        flex-direction: column;
+    }
+    .footer-first-col p {
+        padding: 44px 10% 0 0;
+    }
+    .footer-first-col h5, .footer-col h5 {
+        font-size: 22px;
+    }
+    .footer-links li a, .footer-first-col p {
+        font-size: 20px;
+    }
+    .block-left-bg {
+        top: -236px;
+        left: 11px;
+    }
+}
+@media(max-width:1024px){
+    .block-left-bg {
+        top: -229px;
+        left: 11px;
+    }
+    .block-left {
+        bottom: -35%;
+    }
+    .coll-6-new::before{
+        left:0%;
+        bottom: 10%;
+    }
+}
+@media(max-width:992px){
+    .header ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+        max-width: 400px;
+        position: fixed;
+        top:25%;
+        left:-100%;
+        height:calc(100vh - 25%);
+        background: #ffb250;
+        color:#595b61;
+        z-index: 999999;
+        transition:all 0.5s ease;
+    }
+    .menu-btn i{
+        display: block;
+        z-index: 5;
+    }
+    .header ul li a{
+        display: block;
+    }
+    #click:checked ~ .menu-btn i::before{
+        content:"\f00d";
+    }
+    .header ul li a.active{
+        background:none ;
+        border-radius: 0;
+    }
+    .header li{
+        margin:10px 0;
+    }
+    .header ul li a{
+        font-size: 20px;
+        color:#595b61;
+        transition: 0.5s all;
+    }
+    .header ul li a:hover{
+        background: #fff;
+        padding: 12px 64px;
+        border-radius: 30px;
+    }
+    .col-lg-6, .col-4, .col-50, .footer-first-col, .footer-col, .col-8{
+        flex:0 0 100%;
+    }
+    .block-left {
+        top:0;
+    }
+    .quo {
+        padding: 27px 183px;
+    }
+    .block-left h1, .block-left h2 {
+        font-size: 59px;
+    }
+    .block-left-para {
+        padding: 25px 23px 25px 23px;
+        margin-top: 5px;
+    }
+    .hikers-heading {
+        padding-top: 85px;
+    }
+    .col-4{
+        margin-top:5%;
+    }
+    .level-card h2, .level-card p {
+       color:#fff;
+    }
+    .journey-heading h3 {
+        font-size: 55px;
+    }
+    .route-boxx {
+        left: 38%;
+        top:-15px;
+    }
+    .discount{
+        left:40%;
+        bottom:-15px;
+    }
+    .video-section{
+        background-position: 82% 10px;
+    }
+    .video-btn, .video-section, .coll-6-new{
+        padding: 0;
+    }
+    .video-btn-section img{
+        width:100%;
+    }
+    .video-abt {
+        padding: 27px 0px;
+    }
+    .video-header h5, .video-abt h5, .footer-upper-right, .footer-upper-para, .footer-first-col{
+        text-align: center;
+    }
+    .video-header {
+        padding:30px 0 30px 16px;
+    }
+    .video_para{
+        font-size: 20px;
+    }
+    .searcInpt {
+        top: 172px;
+        right: 40px;
+    }
+    .footer-upper-socials{
+        align-items: center;
+    }
+    .txt-end{
+        padding-left: 0;
+        justify-content: center;
+    }
+    .footer-upper-para{
+        padding: 0;
+    }
+    .footer-first-col p {
+        padding:23px 0;
+    }
+    .gall-image-row {
+        margin: 0;
+    }
+    .gallery {
+        background-position: 100% -21px;
+    }
+    .gallery-btn {
+        margin-top: 30px;
+    }
+    .gall-image-row img{
+        width:50%;
+    }
+    .footer-first-col p {
+        padding: 44px 0% 0 0;
+    }
+    .your-logo{
+        padding: 35px 0;
+    }
+    .footer-first-col h5, .footer-col h5{
+        padding: 10px 0;
+    }
+    .footer-links {
+        padding: 20px 0 0 0;
+    }
+    .block-left-bg{
+        display: none;
+    }
+    .coll-6-new::before{
+        height:675px;
+        left:50%;
+        bottom:2%;
+        transform:rotate(90deg);
+    }
+}
+@media(max-width:912px){
+    .video-abt {
+        padding: 20px 0px;
+    }
+}
+@media(max-width:820px){
+    .creative-bg {
+        top: 997px;
+    }
+    .hikers-heading h1, .journey-heading h3{
+        font-size: 45px;
+    }
+    .level-card p {
+        text-align: center;
+        padding: 0;
+    }
+    .border-div{
+        top:125px;
+    }
+    .route_para {
+        margin: 0 15%;
+    }
+    .time-to-hike{
+        background-position: center;
+    }
+    .time-heading h4, .time-heading h5 {
+        font-size: 70px;
+    }
+    .route-boxx {
+        left: 38%;
+    }
+    .discount{
+        left:40%;
+    }
+    .your-logo img {
+        width: 270px;
+    }
+    .footer-upper-para p{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .searcInpt {
+        top: 275px;
+        right: 33px;
+    }
+    .video-section{
+        top: -24px;
+    }
+    .col-4-box-image{
+        margin:20px 0;
+    }
+}
+@media(max-width:768px){
+    .quotes-bg{
+        width:100%;
+    }
+    .quo {
+        padding: 27px 10px;
+    }
+    .block-left {
+        top: 90px;
+    }
+    .block-left-para p{
+        font-weight: bold;
+    }
+    .hikers-heading h1, .journey-heading h3 {
+        font-size: 38px;
+    }
+    .route_para {
+        margin: 0 10%;
+    }
+    .time-to-hike{
+        background-position: 100% -25px;
+    }
+    .route-boxx h5 {
+        font-size: 26px;
+    }
+    .route-boxx{
+        left:39%;
+    }
+    .discount h5, .footer-upper-right p {
+        font-size: 20px;
+    }
+    .video-abt h5 {
+        font-size: 40px;
+    }
+    .video-section {
+        background-position: 80% 152px;
+    }
+    .gallery {
+        background-position: 100% -18px;
+        /* top:52px; */
+    }
+    .coll-6-new::before{
+        height:510px;
+        bottom:27%;
+    }
+    }
+@media(max-width:640px){
+    .route-boxx {
+        left: 36%;
+    }
+    .discount {
+        left: 38%;
+    }
+    .header ul{
+        top:43%;
+    }
+}    
+@media(max-width:600px){
+    .creative-bg {
+        top: 1026px;
+    }
+    .hikers-heading {
+        margin: 50px 30px;
+        padding-top: 100px;
+    }
+    .hikers_para {
+        padding: 59px 60px 44px 60px;
+    }
+    .border-div {
+        top: 90px;
+        left:10%;
+        width:80%;
+    }
+    .searcInpt {
+        top: 175px;
+        right: -20px;
+    }
+    .route_para p{
+        font-weight: bold;
+    }
+    .route-boxx {
+        left: 37%;
+    }
+    .route-boxx h5 {
+        font-size: 22px;
+    }
+    .discount {
+        left: 37%;
+        bottom: 0px;
+    }
+    .video-header{
+        padding-left: 0;
+    }
+    .video-header h5{
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .video-play .fa-play {
+        font-size: 36px;
+    }
+    .video_para {
+        padding: 24px 0px 0 0px;
+    }
+    .video-abt h5 {
+        font-size: 20px;
+    }
+    .video-btn button {
+        font-size: 16px;
+    }
+    .your-logo img {
+        width: 220px;
+    }
+    .footer-upper-para p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .footer-upper-socials li {
+        width: 37%;
+        flex: 0 0 37%;
+    }
+}  
+@media(max-width:575px){
+    .footer {
+        padding: 35px 25px 35px 25px;
+    }
+    .creative-bg img{
+        min-height:140px;
+    }
+    .hikers-heading h1, .journey-heading h3 {
+        font-size: 35px;
+    }
+    .hikers_para {
+        padding: 49px 25px 40px 25px;
+    }
+    .searcInpt {
+        top: 161px;
+        right: -52px;
+    }
+    .route-boxx {
+        left: 34%;
+    }
+    .discount {
+        left: 34%;
+    }
+    .gall-image-row img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .gallery-heading {
+        padding: 45px 0;
+    }
+    .journ-para {
+        margin: 0 5%;
+    }
+    .logo img{
+        width:290px;
+    }
+    .coll-6-new::before{
+        height:390px;
+        bottom:44%;
+    }
+}  
+@media(max-width:420px){
+    .footer-first-col h5, .footer-col h5 {
+        font-size: 17px;
+    }
+    .footer-links li a, .footer-first-col p {
+        font-size: 16px;
+    }
+    .footer-upper-socials li{
+        width:100%;
+        justify-content: center;
+    }
+    .level-heading h1 {
+        font-size: 28px;
+    }
+    .route-boxx {
+        left: 30%;
+    }
+    .discount {
+        left: 29%;
+    }
+    .gallery-btn button {
+        font-size: 18px;
+    }
+    .time-heading h4, .time-heading h5 {
+        font-size: 55px;
+        line-height: 66px;
+    }
+    .searcInpt input[type="search"] {
+        width: 260px;
+    }
+    .searcInpt {
+        top: 145px;
+        right: -32px;
+    }
+    .menu-btn {
+        left: 20px;
+    }
+    .quotes-block {
+        padding: 31px 9px 37px 9px;
+    }
+    .block-left h1, .block-left h2 {
+        font-size: 50px;
+    }
+    .gallery {
+        background-position: 100% 2px;
+    }
+    .coll-6-new::before{
+        height:290px;
+        bottom:60%;
+    }
+    .video-play {
+        top: 39%;
+    }
+}
+@media(max-width:375px){
+    .quo {
+        font-size: 15px;
+    }
+    .block-left h1, .block-left h2 {
+        font-size: 40px;
+    }
+    .hikers-heading h1, .journey-heading h3 {
+        font-size: 21px;
+    }
+    .hikers_para {
+        padding: 49px 5px 40px 5px;
+    }
+    .searcInpt input[type="search"] {
+        width: 220px;
+    }
+    .searcInpt {
+        top: 130px;
+        right: -33px;
+    }
+    .route_para p{
+        font-size:17px;
+    }
+    .time-heading h4, .time-heading h5 {
+        font-size: 50px;
+        line-height: 66px;
+    }
+    .route-boxx {
+        left: 25%;
+    }
+    .discount {
+        left: 27%;
+    }
+    
+    .gallery {
+        background-position: 100% 4px;
+    }
+}
+@media(max-width:320px){
+    .header ul{
+        top:31%;
+    }
+}
+
